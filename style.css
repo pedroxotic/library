@@ -1,0 +1,116 @@
+    table {
+      border-collapse: collapse;
+      width: 80%;
+      margin: 0 auto;
+    }
+    th, td {
+      border: 1px solid #555;
+      padding: 6px 10px;
+      text-align: center;
+    }
+    th {
+      background: #ddd;
+    }
+
+    button{
+        display: block;
+        margin: 5% auto;
+        
+        }
+        button:hover {
+            cursor: pointer; 
+            background-color: bisque;
+        }
+
+        button:active {
+            background-color: #ffe4b5;
+            color: #333;
+            transform: scale(0.98);
+        }
+        body {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            background: #f6f4ee;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: #382110;
+            color: #fff;
+            padding: 24px 0 16px 0;
+            text-align: center;
+            letter-spacing: 2px;
+            font-size: 2.2rem;
+            font-weight: bold;
+            box-shadow: 0 2px 8px rgba(56,33,16,0.08);
+        }
+
+        table {
+            background: #fff;
+            box-shadow: 0 2px 12px rgba(56,33,16,0.07);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        th {
+            background: #f4e8d6;
+            color: #382110;
+            font-size: 1.1rem;
+            letter-spacing: 1px;
+        }
+
+        tr:nth-child(even) td {
+            background: #f9f6f1;
+        }
+
+        tr:hover td {
+            background: #f3e6d0;
+            transition: background 0.2s;
+        }
+
+        input, select {
+            padding: 7px 12px;
+            border: 1px solid #cbbfae;
+            border-radius: 4px;
+            font-size: 1rem;
+            margin: 6px 0;
+            background: #fffdfa;
+            transition: border 0.2s;
+        }
+
+        input:focus, select:focus {
+            border-color: #b2936b;
+            outline: none;
+        }
+
+        button {
+            background: #b2936b;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            font-size: 1.05rem;
+            padding: 10px 24px;
+            box-shadow: 0 1px 4px rgba(56,33,16,0.08);
+            transition: background 0.2s, transform 0.1s;
+        }
+
+        button:hover {
+            background: #a07c4b;
+        }
+
+        button:active {
+            background: #8c6b3f;
+            color: #fff;
+        }
+
+        a {
+            color: #b2936b;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        a:hover {
+            color: #382110;
+            text-decoration: underline;
+        }
