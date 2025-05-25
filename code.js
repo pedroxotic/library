@@ -37,17 +37,11 @@ books.forEach(book => {
   })
   
 
-
-  /*
-  const celda = document.createElement('th');
-  celda.textContent = book.title;
-  fila.appendChild(celda);
-  */
-
 });
 
 
 /*
+falta hacer el button new que aviente un form
 const button = document.querySelector('button');
 boton.addEventListener('click', )
 */

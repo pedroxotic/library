@@ -114,3 +114,7 @@
             color: #382110;
             text-decoration: underline;
         }
+
+        .modalOverlay{
+            display: none;
+        }
