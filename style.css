@@ -115,6 +115,6 @@
             text-decoration: underline;
         }
 
-        .modalOverlay{
+        #modalOverlay{
             display: none;
         }

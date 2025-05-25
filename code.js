@@ -39,9 +39,14 @@ books.forEach(book => {
 
 });
 
+let newbtn = document.getElementById("newbtn");
+let formulario = document.getElementById("modalOverlay");
+newbtn.addEventListener('click', function(event){
+  formulario.style.display = 'flex';
+})
 
-/*
-falta hacer el button new que aviente un form
-const button = document.querySelector('button');
-boton.addEventListener('click', )
-*/
+let closemodal = document.getElementById("closeModal");
+closemodal.addEventListener('click', function(event){
+  formulario.style.display = 'none';
+})
+
