@@ -62,16 +62,14 @@ function displayBook(books, counter){
     fila.appendChild(celdaDelete);
 
     celdaDelete.addEventListener('click', function(event){
-      // necesita sacarlo del dom y sacarlo de el array 
-      // necesito saber que fila se apreto, esa # numero de fila usarlo
-      // para  eliminar el libro del array
-      
+
+    
      books.splice(parseInt(celdaDelete.dataset.id), 1);
+     fila.remove();
      console.log(books);
 
     } )
 
-  } 
+  }
 
-  // necesito saber que delete boton aprete 
 
