@@ -65,13 +65,13 @@ function displayBook(books, counter){
       // necesita sacarlo del dom y sacarlo de el array 
       // necesito saber que fila se apreto, esa # numero de fila usarlo
       // para  eliminar el libro del array
-      
-     books.slice(parseInt(celdaDelete.dataset.id), parseInt(celdaDelete.dataset.id));
+    
+     books.splice(parseInt(celdaDelete.dataset.id), 1);
+     fila.remove();
      console.log(books);
 
     } )
 
-  } 
+  }
 
-  // necesito saber que delete boton aprete 
 
